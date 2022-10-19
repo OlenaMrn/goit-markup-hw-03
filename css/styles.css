@@ -47,6 +47,8 @@ img {
 .logo.link {
   display: block;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: #000000;
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -64,8 +66,11 @@ img {
 /* site nav */
 
 .main-nav .link {
-  color: var(--pleftlogo linkrimary-text-color);
+  
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--pleftlogo linkrimary-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -78,6 +83,7 @@ img {
 }
 
 .link.address {
+  
   color: #ffffff;
   font-weight: 400;
   font-style: normal;
@@ -122,10 +128,13 @@ img {
 .main-contacts {
   display: flex;
   margin-left: auto;
+  
 }
 
 .main-contacts .link {
   display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 
   color: var(--paragraf-text-color);
   font-weight: 500;
@@ -144,8 +153,8 @@ img {
 .section.header {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -196,6 +205,8 @@ img {
 
 /* feachers */
 
+
+
 .titel {
   margin-top: 0px;
   margin-bottom: 2px;
@@ -228,6 +239,10 @@ img {
 }
 
 /* work */
+
+.section.work {
+  padding-top: 0;
+}
 
 .container.work .list {
   display: flex;
@@ -422,8 +437,7 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+
   /*outline: 2px solid blueviolet;*/
 }
 
@@ -454,7 +468,6 @@ img {
 }
 
 .section.footer {
-  width: 1200;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -471,3 +484,5 @@ img {
 .container.footer .list li {
   margin-top: 9px;
 }
+
+
