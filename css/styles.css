@@ -83,11 +83,15 @@ img {
   color: var(--paragraf-text-color);
 }
 
-.link.address {
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 0px;
 
+.address {
+display: block;
+padding-top: 20px;
+margin-bottom: 0px;
+}
+
+.link.address {
+ 
   color: #ffffff;
   font-weight: 400;
   font-style: normal;
